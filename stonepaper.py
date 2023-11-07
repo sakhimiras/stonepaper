@@ -5,7 +5,7 @@ while(True):
 
     user_str = input("\033[34m{}".format('выберите из списка: \n1)камень \n2)ножницы \n3)бумага \n'))
 
-    if(user_str != "1" or user_str != "2" or user_str != "3" ): 
+    if(user_str != "1" and user_str != "2" and user_str != "3" ): 
         print("\033[31m{}".format('\nerror: введите что то из списка:'))
         continue
 
