@@ -1,8 +1,8 @@
-import random 
-num = random.randrange(1,4)
+import random
+
 
 while(True):
-
+    num = random.randrange(1,4)
     user_str = input("\033[34m{}".format('выберите из списка: \n1)камень \n2)ножницы \n3)бумага \n'))
 
     if(user_str != "1" and user_str != "2" and user_str != "3" ): 
